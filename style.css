@@ -1,0 +1,56 @@
+body {
+    width: 50em;
+    margin: 0.8em auto;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+h1,
+h2 {
+    margin: 0em;
+}
+
+h1 {
+    text-align: center;
+    padding: 0.6em;
+    border-bottom: 2px solid rgba(20, 20, 20, 0.6);
+}
+
+h2 {
+    margin: 0.4em 0em 0em;
+}
+
+article {
+    padding: 0.6em;
+}
+
+.article_container {
+    border-bottom: 2px solid rgba(20, 20, 20, 0.6);
+}
+
+.by_line {
+    font-style: italic;
+}
+
+.image_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caption {
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.comment {
+    font-family: serif;
+    font-style: italic;
+    font-weight: 400;
+    padding: 0.625em;
+    border-left: 0.31em solid rgba(20, 20, 20, 0.5);
+    margin: 0em;
+}
